@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "10.0"
   # s.watchos.deployment_target = "2.0"
   s.source   = { :git => "https://github.com/emqx/CocoaMQTT.git", :tag => "2.1.3"}
+  s.resources    = 'Sources/*.{png,bundle,xcprivacy}'
   s.default_subspec = 'Core'
   
   s.subspec 'Core' do |ss|
